@@ -81,6 +81,7 @@ mainClassName = "io.realworld.Application"
 test {
     useJUnitPlatform()
     testLogging {
+        showStandardStreams = true
         events "passed", "skipped", "failed"
     }
 }
